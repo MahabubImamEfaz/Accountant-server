@@ -25,7 +25,7 @@ async function run() {
     const serviceCollection = client
       .db("accountant")
       .collection("DisplayServices");
-
+    //reviews collection
     const reviewCollection = client
       .db("accountant")
       .collection("DisplayReviews");
