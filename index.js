@@ -30,6 +30,7 @@ async function run() {
       .db("accountant")
       .collection("DisplayReviews");
 
+    //display 3 data on home page
     app.get("/displayservices", async (req, res) => {
       const query = {};
       const cursor = serviceCollection.find(query);
