@@ -71,7 +71,7 @@ async function run() {
       const result = await serviceCollection.insertOne(order);
       res.send(result);
     });
-
+    //query emails
     app.get("/reviews", async (req, res) => {
       let query = {};
       if (req.query.email) {
